@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
-
-
-from google.colab import drive; drive.mount('/content/drive')
-
-
-# In[ ]:
-
 
 # Load datasets
 import pandas as pd
@@ -745,18 +734,8 @@ merged_table = pd.merge(city_com_codebook1, country_com_codebook1, on="country_n
 # Display the result
 merged_table
 
-
-
-
-# In[ ]:
-
-
 # Check for missing values
 print(merged_table.isnull().sum())
-
-
-# In[ ]:
-
 
 # Example Analysis: Correlation between GDP per capita and MSW per capita
 correlation = merged_table["gdp per capita"].corr(merged_table["msw per capita"])
@@ -773,49 +752,9 @@ plt.grid()
 plt.show()
 
 
-# In[ ]:
 
 
 
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
