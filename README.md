@@ -1,6 +1,6 @@
-# Global-waste-distribution
+# What a Waste Global Database
 
-This project entitled What a Waste GLobal was provided by World Bank Data Catalog.
+The dataset entitled What a Waste GLobal was provided by World Bank Data Catalog.
 
 What a Waste is a global project to aggregate data on solid waste management from around the world. This database features the statistics collected. The information presented is the best available based on a study of current literature and limited conversations with waste agencies and authorities. While there may be variations in the definitions and quality of reporting for individual data points, general trends should reflect the global reality. All sources and any estimations are noted.
 
@@ -48,29 +48,11 @@ waste_treatment_recycling_percent:
      This metric is often used to assess the efficiency and effectiveness of recycling programs, monitor progress toward sustainability goals, and identify opportunities for improvement in waste management systems.
 
 
-
 ## **Data Source**
 The original dataset can be found on https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database
 
-### **How to Download the Data**
-
-1. **Download directly from Data Source**  
-
-2. **Clone the shn522-BYJ Repository**  
-   Run the following command in your terminal to clone the data repository:
-   ```bash
-   git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
-
-3. **Move the dataset to Your Project**  
-   Open `data` folder and copy 4 .csv files
-
-4. **Remove the Original Repository** (Optional):
-   ```bash
-   rm -rf COVID-19
-   ```
-
 ---
-### **2. Directory Structure**
+### **1. Directory Structure**
 Maintain this structure:
 ```
 What a waste/
@@ -91,23 +73,49 @@ What a waste/
 └── .gitignore                                # Ignore unnecessary files
 ```
 ---
-### **3. Coding Standards**
-- Follow **PEP 8** guidelines for Python.
-- Use meaningful variable and function names.
-- Add comments and docstrings:
-   ```python
-   def load_data(file_path):
-       """
-       Load a CSV file into a pandas DataFrame.
+# Data Analysis Project
 
-       Args:
-           file_path (str): Path to the CSV file.
+## Description
+This project contains scripts for analyzing and visualizing data. The programs included are designed to process input data, perform statistical analysis, and generate visualizations.
 
-       Returns:
-           pd.DataFrame: DataFrame containing the data.
-       """
-       return pd.read_csv(file_path)
+## List of Programs
+1. **data_analysis.ipynb**: This Jupyter Notebook includes:
+   - Data preprocessing steps.
+   - Statistical analysis of the dataset.
+   - Creation of various visualizations.
+
+## Python Packages
+To ensure the code runs smoothly, install the following Python packages:
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyterlab
+
+You can install all packages using the following command:
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
+
+### **How to use**
+
+1. **Clone this repository to your local machine**  
+   Run the following command in your terminal to clone the data repository:
+   ```bash
+   git clone --depth 1 https://github.com/CSSEGISandData/COVID-19.git
+
+2. **Navigate to the directory**  
+   cd your-repository
+
+3. **Ensure all required packages are installed**  
+
+4. **Open the Jupyter Notebook in JupyterLab or Jupyter Notebook**
+    ```bash
+    ```jupyter lab data_analysis.ipynb
+
    ```
+
 ---
 
 ### **4. Testing and Code Review**
