@@ -11,8 +11,8 @@ Metrics:        waste generation, composition, collection, disposal, user fees a
 
 Temporal Coverage:       2010-2020
 
-## Abbreviation of key terms
-iso3c:  Country or region codes
+## Abbreviation of key metrics
+iso3c:                 Country or region codes
 
 region_id: 
 
@@ -24,7 +24,7 @@ region_id:
       SAS: South Asia
       SSF: Sub-Saharan Africa
       
-income_id/incomeID:   classification system for categorizing cities or countries based on their income levels
+income_id/incomeID:      classification system for categorizing cities or countries based on their income levels
 
       LIC:   Low-Income Countries/Cities
       LMC:   Lower-Middle-Income Countries/Cities
