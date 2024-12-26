@@ -2,21 +2,21 @@
 
 This project uses What a Waste GLobal Database provided by World Bank Data Catalog.
 
+
 ## **Data Source**
 The original dataset can be found on https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database
 
 ### **How to Download the Data**
 
-1. **Clone the Johns Hopkins COVID-19 Repository**  
+1. **Download directly from Data Source**  
+
+2. **Clone the shn522-BYJ Repository**  
    Run the following command in your terminal to clone the data repository:
    ```bash
-   git clone --depth 1 https://github.com/CSSEGISandData/COVID-19.git
+   git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
 
-2. **Locate the Data Files**  
-   Go to the `csse_covid_19_data/csse_covid_19_time_series` folder. 
-
-3. **Move the Files to Your Project**  
-   Copy the files to your `data` folder:
+3. **Move the dataset to Your Project**  
+   Open `data` folder and copy 4 .csv files
 
 4. **Remove the Original Repository** (Optional):
    ```bash
