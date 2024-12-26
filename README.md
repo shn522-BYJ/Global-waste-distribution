@@ -1,6 +1,52 @@
 # Global-waste-distribution
 
-This project uses What a Waste GLobal Database provided by World Bank Data Catalog.
+This project entitled What a Waste GLobal was provided by World Bank Data Catalog.
+
+What a Waste is a global project to aggregate data on solid waste management from around the world. This database features the statistics collected. The information presented is the best available based on a study of current literature and limited conversations with waste agencies and authorities. While there may be variations in the definitions and quality of reporting for individual data points, general trends should reflect the global reality. All sources and any estimations are noted.
+
+Geographical Coverage:   nearly all countries and over 330 cities
+
+Metrics:        waste generation, composition, collection, disposal, user fees and financing, the 
+                informal sector, administrative structures, public communication, and legal information.             
+
+Temporal Coverage:       2010-2020
+
+## Abbreviation of key terms
+iso3c:  Country or region codes
+
+region_id: 
+
+      EAS: East Asia and Pacific
+      ECS: Europe and Central Asia
+      LCN: Latin America and the Caribbean
+      MEA: Middle East and North Africa
+      NAC: North America
+      SAS: South Asia
+      SSF: Sub-Saharan Africa
+      
+income_id/incomeID:   classification system for categorizing cities or countries based on their income levels
+
+      LIC:   Low-Income Countries/Cities
+      LMC:   Lower-Middle-Income Countries/Cities
+      UMC:   Upper-Middle-Income Countries/Cities
+      HIC:   High-Income Countries/Cities
+
+total_msw_total_msw_generated_tons_year:  
+
+     the total amount of municipal solid waste generated in a particular area (e.g., city, region, or country) measured in tons per year
+
+waste_treatment_open_dump_percent:  
+    
+     the percentage of total waste in a given area (e.g., city, region, or country) that is disposed of using open dumping methods. 
+    
+     This is an important metric for evaluating the environmental and health implications of waste management practices and identifying areas needing improvement
+
+waste_treatment_recycling_percent:   
+
+     the percentage of total waste in a given area (e.g., city, region, or country) that is recycled
+     
+     This metric is often used to assess the efficiency and effectiveness of recycling programs, monitor progress toward sustainability goals, and identify opportunities for improvement in waste management systems.
+
 
 
 ## **Data Source**
