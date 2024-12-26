@@ -24,35 +24,6 @@ The original dataset can be found on https://datacatalog.worldbank.org/search/da
    ```
 
 ---
-
-## **Collaboration Rules**
-
-### **1. Git Workflow**
-- Use **feature branches**:
-   - Name branches following the convention:
-     - `feature/<feature-name>`: For new scripts or features.
-     - `fix/<bug-name>`: For bug fixes.
-     - `data/<updates>`: For data updates.
-
-   Example:
-   ```bash
-   git checkout -b feature/add-visualizations
-   ```
-
-- **Commit Messages**:  
-   Write clear, descriptive commit messages:
-   ```bash
-   git add .
-   git commit -m "feature: Add visualization for top 10 countries"
-   ```
-
-- **Pull Requests**:  
-   - Push your branch and open a PR:
-     ```bash
-     git push origin feature/<branch-name>
-     ```
-   - Request a review before merging into `main`.
----
 ### **2. Directory Structure**
 Maintain this structure:
 ```
@@ -91,7 +62,6 @@ What a waste/
        """
        return pd.read_csv(file_path)
    ```
-
 ---
 
 ### **4. Testing and Code Review**
