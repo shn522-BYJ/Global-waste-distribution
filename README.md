@@ -113,7 +113,8 @@ pip install pandas numpy matplotlib plotly seaborn jupyterlab
 1. **Clone this repository to your local machine**  
    Run the following command in your terminal to clone the data repository:
    ```bash
-   git clone --depth 1 https://github.com/CSSEGISandData/COVID-19.git
+   git clone --depth 1 https://github.com/
+
 
 2. **Navigate to the directory**  
    cd your-repository
