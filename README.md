@@ -63,15 +63,13 @@ What a waste/
    ├──city_level_data_0_0.csv
    ├──country_level_codebook_0.csv
    ├──country_level_data_0_0.csv                        
-├── scripts/
+├── scripts/                                  # Python analysis scripts
    ├──data_summary.py
-   ├──data_visualizations.py                  # Visualizations and plots
-   ├──statistical_analysis.py                 # Python analysis scripts
+   ├──data_visualizations.py             
+   ├──statistical_analysis.py                 
 ├── notebooks/                                # Jupyter Notebooks
-   ├──data_analysis.ipynb                                               
-├── results/                                  # Output files
-├── README.md                                 # Documentation
-└── .gitignore                                # Ignore unnecessary files
+   ├──data_analysis.ipynb                                                                       
+└── README                                    # Document
 ```
 ---
 
@@ -95,21 +93,22 @@ This project contains scripts for analyzing and visualizing data. The programs i
 
    This program analyze relationships between variables and draw meaningful conclusions from the data.
 
-## Python Packages
+### **Python Packages**
 To ensure the code runs smoothly, install the following Python packages:
 - pandas
 - numpy
-- matplotlib
+- matplotlib.pyplot
+- plotly.express
 - seaborn
-- scikit-learn
 - jupyterlab
 
+### **How to use**
 You can install all packages using the following command:
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
+pip install pandas numpy matplotlib plotly seaborn jupyterlab
 
-### **How to use**
+
 
 1. **Clone this repository to your local machine**  
    Run the following command in your terminal to clone the data repository:
@@ -135,15 +134,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyterlab
 
 ---
 
-### **5. .gitignore Rules**
-To avoid committing unnecessary files, add the following to `.gitignore`:
-```
-__pycache__/
-*.csv.zip
-*.csv.tar
-*.log
-data/raw_data/
-figures/temp/
 ```
 
 ---
