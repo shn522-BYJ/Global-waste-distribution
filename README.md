@@ -103,55 +103,39 @@ To ensure the code runs smoothly, install the following Python packages:
 - jupyterlab
 
 ### **How to use**
-You can install all packages using the following command:
-
+1. You can install all packages using the following command:
 ```bash
 pip install pandas numpy matplotlib plotly seaborn jupyterlab
+```
+2. Run the following command in your terminal to clone the data repository:
+```bash
+git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
+```
+3. Navigate to the directory
+```bash
+    cd your-repository
+```
+4. Run the analysis script:
+```bash
+   python scripts/data_summary_statistics.py
+```
+```bash
+   python scripts/data_visualization_statistics.py
+```
+```bash
+   python scripts/data_advanced_analysis.py
+```
+---
 
 
-
-1. **Clone this repository to your local machine**  
-   Run the following command in your terminal to clone the data repository:
-   ```bash
-   git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
+   
 
 
-2. **Navigate to the directory**  
-   cd your-repository
 
 3. **Ensure all required packages are installed**  
 
 4. **Open the Jupyter Notebook in JupyterLab or Jupyter Notebook**
     ```bash
     ```jupyter lab data_analysis.ipynb
-
-   ```
-
----
-
-### **4. Testing and Code Review**
-- Test your code locally before pushing changes.
-- Review pull requests thoroughly before approving.
-
----
-
-```
-
----
-
-## **Project Setup**
-1. Install required libraries:
-   ```bash
-   pip install pandas matplotlib
-   ```
-
-2. Run the analysis script:
-   ```bash
-   python scripts/covid_analysis.py
-   ```
-
----
-
-By following these rules, the team can work collaboratively, efficiently, and without conflicts. For any questions or issues, please open a **GitHub Issue** or reach out to the team.
 
 ---
