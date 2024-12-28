@@ -1,6 +1,9 @@
-# What a Waste Global Database
+# What a Waste Global Data Analysis
 
 The dataset entitled What a Waste GLobal was provided by World Bank Data Catalog.
+
+## **Data Source**
+The original dataset can be found on https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database
 
 What a Waste is a global project to aggregate data on solid waste management from around the world. This database features the statistics collected. The information presented is the best available based on a study of current literature and limited conversations with waste agencies and authorities. While there may be variations in the definitions and quality of reporting for individual data points, general trends should reflect the global reality. All sources and any estimations are noted.
 
@@ -47,12 +50,10 @@ waste_treatment_recycling_percent:
      
      This metric is often used to assess the efficiency and effectiveness of recycling programs, monitor progress toward sustainability goals, and identify opportunities for improvement in waste management systems.
 
-
-## **Data Source**
-The original dataset can be found on https://datacatalog.worldbank.org/search/dataset/0039597/What-a-Waste-Global-Database
-
 ---
-### **1. Directory Structure**
+
+## Data Analysis Project
+### **Directory Structure**
 Maintain this structure:
 ```
 What a waste/
@@ -73,16 +74,26 @@ What a waste/
 └── .gitignore                                # Ignore unnecessary files
 ```
 ---
-# Data Analysis Project
 
-## Description
-This project contains scripts for analyzing and visualizing data. The programs included are designed to process input data, perform statistical analysis, and generate visualizations.
+### **Description**
+This project contains scripts for analyzing and visualizing data. The programs included are designed to process input data, perform statistical summaries and data visualizations to understand key trends.
 
-## List of Programs
-1. **data_analysis.ipynb**: This Jupyter Notebook includes:
-   - Data preprocessing steps.
-   - Statistical analysis of the dataset.
-   - Creation of various visualizations.
+### **List of Programs**
+1. **data_analysis.ipynb**
+   
+   This Jupyter Notebook connects to Google Drive to access datasets, performs data preprocessing, and generates visualizations. It also includes statistical summaries and data visualizations to understand key trends.
+
+2. **data_summary.py**
+
+   This script provides a concise overview of the dataset, calculates basic summary statistics (e.g., mean) and generates an overview of the data distribution to help understand the dataset's structure and key features.
+   
+3. **data_visualizations.py**
+   
+   This script generates various visualizations (e.g., bar charts, scatter plots) to represent data insights visually.
+   
+4. **statistical_analysis.py**
+
+   This program analyze relationships between variables and draw meaningful conclusions from the data.
 
 ## Python Packages
 To ensure the code runs smoothly, install the following Python packages:
