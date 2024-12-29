@@ -127,7 +127,7 @@ git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
 ```
 ---
 
-
+Add a README. md file to your GitHub repository with instructions on how to run the code, including how to set up the environment (installing dependencies, setting up virtual environments, etc.).
    
 
 
