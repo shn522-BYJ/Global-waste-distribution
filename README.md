@@ -115,23 +115,23 @@ git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
 ```
 3. Navigate to the directory
 ```bash
-    cd your-repository
+cd your-repository
 ```
 4. Run the command to ensure all the required packages installed for your project.
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 5. Run the script:
 ```bash
-   python scripts/data_summary_statistics.py
+python scripts/data_summary_statistics.py
 ```
 6.Run the script:
 ```bash
-   python scripts/data_visualization_statistics.py
+python scripts/data_visualization_statistics.py
 ```
 7.Run the script:
 ```bash
-   python scripts/data_advanced_analysis.py
+python scripts/data_advanced_analysis.py
 ```
 ---
 
