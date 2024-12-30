@@ -69,7 +69,7 @@ What a waste/
    ├──statistical_analysis.py                 
 ├── notebooks/                                # Jupyter Notebooks
    ├──data_analysis.ipynb
-├── requirements                                                                      
+├── updated_requirements.txt                  # setting up the environment                                                                     
 └── README                                    # Document
 ```
 ---
@@ -112,21 +112,23 @@ pip install pandas numpy matplotlib plotly seaborn jupyterlab
 ```bash
 git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
 ```
-3. Run the command to ensure all the required packages installed for your project.
-```bash
-   pip install -r requirements.txt
-```
-4. Navigate to the directory
+3. Navigate to the directory
 ```bash
     cd your-repository
 ```
-4. Run the analysis script:
+4. Run the command to ensure all the required packages installed for your project.
+```bash
+   pip install -r requirements.txt
+```
+5. Run the script:
 ```bash
    python scripts/data_summary_statistics.py
 ```
+6.Run the script:
 ```bash
    python scripts/data_visualization_statistics.py
 ```
+7.Run the script:
 ```bash
    python scripts/data_advanced_analysis.py
 ```
@@ -136,8 +138,6 @@ Add a README. md file to your GitHub repository with instructions on how to run 
    
 
 
-
-3. **Ensure all required packages are installed**  
 
 4. **Open the Jupyter Notebook in JupyterLab or Jupyter Notebook**
     ```bash
