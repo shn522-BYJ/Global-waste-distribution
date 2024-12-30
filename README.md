@@ -69,8 +69,7 @@ What a waste/
    ├──statistical_analysis.py                 
 ├── notebooks/                                # Jupyter Notebooks
    ├──data_analysis.ipynb
-├── updated_requirements.txt                  # setting up the environment                                                                     
-└── README                                    # Document
+├── requirements.txt                  # setting up the environment                                                                   └── README                                    # Document
 ```
 ---
 
