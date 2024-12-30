@@ -1,0 +1,27 @@
+
+# General dependencies
+absl-py==1.4.0
+accelerate==1.2.1
+aiohttp==3.11.10
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.6.0
+matplotlib==3.8.0
+
+# Optional GPU-based libraries (install only on Linux with CUDA support)
+cudf-cu12==24.10.1; platform_system == "Linux"
+libcudf-cu12==24.10.1; platform_system == "Linux"
+cupy-cuda12x==12.2.0; platform_system == "Linux"
+rmm-cu12==24.10.0; platform_system == "Linux"
+
+# CPU fallback for data processing
+pandas>=1.0.0; platform_system != "Linux"
+
+# Torch with platform-specific conditions
+torch==2.5.1; platform_system == "Linux"
+torchaudio==2.5.1; platform_system == "Linux"
+torchvision==0.20.1; platform_system == "Linux"
+
+# Additional useful libraries
+seaborn==0.13.2
+xgboost==2.1.3
