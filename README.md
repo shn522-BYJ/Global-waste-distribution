@@ -53,6 +53,10 @@ waste_treatment_recycling_percent:
 ---
 
 ## Data Analysis Project
+
+### **Description**
+This project analyzes city- and country-level data on waste management, which contains scripts for processing input data, performing statistical summaries and data visualizations to understand key trends.
+
 ### **Directory Structure**
 Maintain this structure:
 ```
@@ -69,12 +73,10 @@ What a waste/
    ├──statistical_analysis.py                 
 ├── notebooks/                                # Jupyter Notebooks
    ├──data_analysis.ipynb
-├── requirements.txt                  # setting up the environment                                                                   └── README                                    # Document
+├── requirements.txt                  # setting up the environment
+└── README                            # Document
 ```
 ---
-
-### **Description**
-This project contains scripts for analyzing and visualizing data. The programs included are designed to process input data, perform statistical summaries and data visualizations to understand key trends.
 
 ### **List of Programs**
 1. **data_analysis.ipynb**
