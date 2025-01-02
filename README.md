@@ -68,32 +68,28 @@ What a waste/
    ├──country_level_codebook_0.csv
    ├──country_level_data_0_0.csv                        
 ├── scripts/                                  # Python analysis scripts
-   ├──data_summary.py
-   ├──data_visualizations.py             
-   ├──statistical_analysis.py                 
+   ├──country_level_data.py
+   ├──city_level_data.py                          
 ├── notebooks/                                # Jupyter Notebooks
-   ├──data_analysis.ipynb
+   ├──main.py
 ├── requirements.txt                  # setting up the environment
 └── README                            # Document
 ```
 ---
 
 ### **List of Programs**
-1. **data_analysis.ipynb**
+1. **main.ipynb**
    
    This Jupyter Notebook connects to Google Drive to access datasets, performs data preprocessing, and generates visualizations. It also includes statistical summaries and data visualizations to understand key trends.
 
-2. **data_summary.py**
+2. **country_level_data.py**
 
-   This script provides a concise overview of the dataset, calculates basic summary statistics (e.g., mean) and generates an overview of the data distribution to help understand the dataset's structure and key features.
+   This script provides a broad overview at country level, it sorts out key metrics and handles missing values and then generates various visualizations (e.g., bar charts, scatter plots) to represent data insights visually from different dimensions, finally analyzes relationships between variables and draw meaningful conclusions from the data. 
+   calculates basic summary statistics (e.g., mean) and generates an overview of the data distribution to help understand the dataset's structure and key features.
    
-3. **data_visualizations.py**
+3. **city_level_data.py**
    
-   This script generates various visualizations (e.g., bar charts, scatter plots) to represent data insights visually.
-   
-4. **statistical_analysis.py**
-
-   This program analyze relationships between variables and draw meaningful conclusions from the data.
+   This script based on the conclusions and 
 
 ### **Python Packages**
 To ensure the code runs smoothly, install the following Python packages:
@@ -105,9 +101,9 @@ To ensure the code runs smoothly, install the following Python packages:
 - jupyterlab
 
 ### **How to use**
-1. You can install all packages using the following command:
+1. Run the command to ensure all the required packages installed for your project.
 ```bash
-pip install pandas numpy matplotlib plotly seaborn jupyterlab
+pip install -r requirements.txt
 ```
 2. Run the following command in your terminal to clone the data repository:
 ```bash
@@ -117,31 +113,19 @@ git clone --depth 1 https://github.com/shn522-BYJ/Global-waste-distribution.git
 ```bash
 cd your-repository
 ```
-4. Run the command to ensure all the required packages installed for your project.
+4. Run the script:
 ```bash
-pip install -r requirements.txt
+python notebooks/main.py
 ```
-5. Run the script:
+5.Run the script:
 ```bash
-python scripts/data_summary_statistics.py
+python scripts/country_level_data.py
 ```
 6.Run the script:
 ```bash
-python scripts/data_visualization_statistics.py
-```
-7.Run the script:
-```bash
-python scripts/data_advanced_analysis.py
+python scripts/city_level_data.py
 ```
 ---
 
 Add a README. md file to your GitHub repository with instructions on how to run the code, including how to set up the environment (installing dependencies, setting up virtual environments, etc.).
-   
-
-
-
-4. **Open the Jupyter Notebook in JupyterLab or Jupyter Notebook**
-    ```bash
-    ```jupyter lab data_analysis.ipynb
-
 ---
