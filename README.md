@@ -115,15 +115,15 @@ cd your-repository
 ```
 4. Run the script:
 ```bash
-python main.py
+python notebooks/main.py
 ```
 5.Run the script:
 ```bash
-python country_level_data.py
+python scripts/country_level_data.py
 ```
 6.Run the script:
 ```bash
-python city_level_data.py
+python scripts/city_level_data.py
 ```
 ---
 
